@@ -2,7 +2,7 @@
   "name": "anuex",
   "private": true,
   "version": "0.0.1",
-   "homepage":"https://anumk15.github.io/akf",
+   "homepage":"https://anumk15.github.io/akf/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   
   "dependencies": {
